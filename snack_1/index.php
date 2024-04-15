@@ -28,6 +28,8 @@ $matchs = [
     ],
 ];
 
+var_dump($matchs);
+
 #Ciclo ogni elemento dell'array
 foreach ($matchs as $match) {
     echo $match["team_home"] . " - " . $match["team_away"] . " | " . $match["points_home"] . " - " . $match["points_away"] . "<br>";
