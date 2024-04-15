@@ -18,6 +18,8 @@ if (strlen($name) > 3) {
     }
     ;
 
+} else {
+    echo "C'è qualcosa di sbagliato";
 }
 
 
