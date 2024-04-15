@@ -30,7 +30,7 @@ $matchs = [
 
 #Ciclo ogni elemento dell'array
 foreach ($matchs as $match) {
-    echo $match["team_home"] . " vs " . $match["team_away"] . ": " . $match["points_home"] . " - " . $match["points_away"] . "<br>";
+    echo $match["team_home"] . " - " . $match["team_away"] . " | " . $match["points_home"] . " - " . $match["points_away"] . "<br>";
 }
 
 
