@@ -6,7 +6,7 @@ $mail = "$_GET[mail]";
 $age = "$_GET[age]";
 
 if (strlen($name) > 3) {
-    if (str_contains($mail, '@')) {
+    if (str_contains($mail, '@') and str_contains($mail, '.')) {
         if (is_numeric($age)) {
             echo "Good job!";
         } else {
